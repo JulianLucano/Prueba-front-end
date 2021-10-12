@@ -1,0 +1,23 @@
+:root {
+    --bg-color: #FFFF00;
+  }
+body{
+    background:#F5F5F5;
+}
+.bgCabecera{
+  background: var(--bg-color);
+}
+.cardOrder:hover{
+  box-shadow: 1px 5px 20px 4px rgba(0,0,0,1);
+}
+.titulo{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*validacion de inputs*/
+form input:focus:invalid{
+  border:2px solid red;
+  
+}
+
+

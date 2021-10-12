@@ -1,0 +1,9 @@
+:root {
+    --bg-color: #FFFF00;
+  }
+body{
+    background:#F5F5F5;
+}
+.bgCabecera{
+  background: var(--bg-color);;
+}
